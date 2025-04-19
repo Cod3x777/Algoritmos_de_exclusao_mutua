@@ -23,24 +23,31 @@ apresentarei soluções clássicas, que, embora não seja recomendado seus usos 
  ``bash
 
  git clone https://github.com.Cod3x777/Algoritmos_de_exclusao_mutua.git
+ 
  cd Algoritmos_de_exclusao_mutua
 
 2. Compile o algoritmo desejado:
 
   gcc peterson_algoritm.c -o peterson_algoritm
+  
   ./peterson_algoritm
 
 3. Saída esperada:
 
   Thread A entrou
+  
   Thread A saiu
+  
   Thread B entrou
+  
   Thread B saiu
 
 ## Estrutura
 
   /Algoritmo_de_Peterson -> Implementação do algoritmo de Peterson
+  
   /Variaveis_trava       -> Algoritmo tipo trava
+  
   /Alternancia_explicita -> Alternância explícita com variável de turno
 
 ## Objetivo
