@@ -23,12 +23,14 @@ apresentarei soluções clássicas, que, embora não seja recomendado seus usos 
  git clone https://github.com.Cod3x777/Algoritmos_de_exclusao_mutua.git
  
  cd Algoritmos_de_exclusao_mutua
+ 
 
 2. Compile o algoritmo desejado:
 
  gcc peterson_algoritm.c -o peterson_algoritm
   
  ./peterson_algoritm
+ 
 
 3. Saída esperada:
 
@@ -39,6 +41,7 @@ apresentarei soluções clássicas, que, embora não seja recomendado seus usos 
  Thread B entrou
   
  Thread B saiu
+ 
 
 ## Estrutura
 
